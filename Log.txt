@@ -1,0 +1,442 @@
+[2025-01-23 20:57:33] Response from server: {"status":"success","message":"Authentication successful","expire_date":"2026-01-18 18:05:33","remaining_days":360}
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 Note: Treating option '--ncp-ciphers' as  '--data-ciphers' (renamed in OpenVPN 2.5).
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 Note: cipher 'AES-128-CBC' in --data-ciphers is not supported by ovpn-dco, disabling data channel offload.
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 OpenVPN 2.6.7 [git:v2.6.7/53c9033317b3b8fd] Windows [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] [DCO] built on Nov  8 2023
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 Windows version 10.0 (Windows 10 or greater), amd64 executable
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 library versions: OpenSSL 3.1.4 24 Oct 2023, LZO 2.10
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 DCO version: N/A
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 TCP/UDP: Preserving recently used remote address: [AF_INET]127.0.0.1:6143
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 Socket Buffers: R=[65536->65536] S=[65536->65536]
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 Attempting to establish TCP connection with [AF_INET]127.0.0.1:6143
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 TCP connection established with [AF_INET]127.0.0.1:6143
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 TCPv4_CLIENT link local: (not bound)
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 TCPv4_CLIENT link remote: [AF_INET]127.0.0.1:6143
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 TLS: Initial packet from [AF_INET]127.0.0.1:6143, sid=9b29783a 369738b4
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 VERIFY OK: depth=1, CN=cn_t9VVmLFrN8sHJoBM
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 VERIFY X509NAME OK: CN=server_QMNifQCSKaW4buIw
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 VERIFY OK: depth=0, CN=server_QMNifQCSKaW4buIw
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 256 bits ECprime256v1, signature: ecdsa-with-SHA256, peer temporary key: 253 bits X25519
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 [server_QMNifQCSKaW4buIw] Peer Connection Initiated with [AF_INET]127.0.0.1:6143
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 TLS: move_session: dest=TM_ACTIVE src=TM_INITIAL reinit_src=1
+[2025-01-23 20:58:11] 2025-01-23 20:58:11 TLS: tls_multi_process: initial untrusted session promoted to trusted
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 SENT CONTROL [server_QMNifQCSKaW4buIw]: 'PUSH_REQUEST' (status=1)
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 PUSH: Received control message: 'PUSH_REPLY,dhcp-option DNS 1.1.1.3,dhcp-option DNS 1.0.0.3,redirect-gateway def1 bypass-dhcp,route-gateway 10.8.0.1,ping 10,ping-restart 120,ifconfig 10.8.0.64 255.255.255.0,peer-id 52,cipher AES-128-CBC,protocol-flags cc-exit tls-ekm dyn-tls-crypt,tun-mtu 1500'
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 OPTIONS IMPORT: --ifconfig/up options modified
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 OPTIONS IMPORT: route options modified
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 OPTIONS IMPORT: route-related options modified
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 OPTIONS IMPORT: tun-mtu set to 1500
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 interactive service msg_channel=0
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 I=9 HWADDR=04:d9:f5:f2:ee:56
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 open_tun
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 tap-windows6 device [LampaVPN] opened
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 TAP-Windows Driver Version 9.21 
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.8.0.64/255.255.255.0 on interface {D271F103-A665-4377-8538-256314761487} [DHCP-serv: 10.8.0.0, lease-time: 31536000]
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Successful ARP Flush on interface [17] {D271F103-A665-4377-8538-256314761487}
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 IPv4 MTU set to 1500 on interface 17 using SetIpInterfaceEntry()
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Block_DNS: WFP engine opened
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Block_DNS: Using existing sublayer
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Block_DNS: Added permit filters for exe_path
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Block_DNS: Added block filters for all interfaces
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Block_DNS: Added permit filters for TAP interface
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Data Channel: cipher 'AES-128-CBC', auth 'SHA256', peer-id: 52
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Timers: ping 10, ping-restart 120
+[2025-01-23 20:58:11] 2025-01-23 20:58:12 Protocol options: protocol-flags cc-exit tls-ekm dyn-tls-crypt
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 TEST ROUTES: 30/30 succeeded len=29 ret=1 a=0 u/d=up
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 127.0.0.1 MASK 255.255.255.255 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] failed because route exists
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] failed because route exists
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 104.19.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 2.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 3.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 13.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 15.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 18.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 34.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 35.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 96.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 104.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 146.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 199.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 15.184.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 172.217.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 216.0.0.0 MASK 255.0.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 142.250.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 162.159.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 216.58.206.91 MASK 255.255.255.255 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 34.0.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 172.217.18.3 MASK 255.255.255.255 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 142.250.185.0 MASK 255.255.255.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 66.22.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 34.126.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 142.250.186.0 MASK 255.255.255.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 0.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 64.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 128.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 192.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 C:\Windows\system32\route.exe ADD 151.101.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 20:58:16] 2025-01-23 20:58:17 Initialization Sequence Completed
+[2025-01-23 21:03:08] 4137[2025-01-23 21:08:08] 4157[2025-01-23 21:12:17] 2025-01-23 21:12:17 Note: Treating option '--ncp-ciphers' as  '--data-ciphers' (renamed in OpenVPN 2.5).
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 Note: cipher 'AES-128-CBC' in --data-ciphers is not supported by ovpn-dco, disabling data channel offload.
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 OpenVPN 2.6.7 [git:v2.6.7/53c9033317b3b8fd] Windows [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] [DCO] built on Nov  8 2023
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 Windows version 10.0 (Windows 10 or greater), amd64 executable
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 library versions: OpenSSL 3.1.4 24 Oct 2023, LZO 2.10
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 DCO version: N/A
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 TCP/UDP: Preserving recently used remote address: [AF_INET]127.0.0.1:6143
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 Socket Buffers: R=[65536->65536] S=[65536->65536]
+[2025-01-23 21:12:17] 2025-01-23 21:12:17 Attempting to establish TCP connection with [AF_INET]127.0.0.1:6143
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 TCP connection established with [AF_INET]127.0.0.1:6143
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 TCPv4_CLIENT link local: (not bound)
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 TCPv4_CLIENT link remote: [AF_INET]127.0.0.1:6143
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 TLS: Initial packet from [AF_INET]127.0.0.1:6143, sid=2dac4987 9933efcd
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 VERIFY OK: depth=1, CN=cn_t9VVmLFrN8sHJoBM
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 VERIFY X509NAME OK: CN=server_QMNifQCSKaW4buIw
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 VERIFY OK: depth=0, CN=server_QMNifQCSKaW4buIw
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 256 bits ECprime256v1, signature: ecdsa-with-SHA256, peer temporary key: 253 bits X25519
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 [server_QMNifQCSKaW4buIw] Peer Connection Initiated with [AF_INET]127.0.0.1:6143
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 TLS: move_session: dest=TM_ACTIVE src=TM_INITIAL reinit_src=1
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 TLS: tls_multi_process: initial untrusted session promoted to trusted
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 PUSH: Received control message: 'PUSH_REPLY,dhcp-option DNS 1.1.1.3,dhcp-option DNS 1.0.0.3,redirect-gateway def1 bypass-dhcp,route-gateway 10.8.0.1,ping 10,ping-restart 120,ifconfig 10.8.0.137 255.255.255.0,peer-id 135,cipher AES-128-CBC,protocol-flags cc-exit tls-ekm dyn-tls-crypt,tun-mtu 1500'
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 OPTIONS IMPORT: --ifconfig/up options modified
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 OPTIONS IMPORT: route options modified
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 OPTIONS IMPORT: route-related options modified
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 OPTIONS IMPORT: tun-mtu set to 1500
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 interactive service msg_channel=0
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 I=9 HWADDR=04:d9:f5:f2:ee:56
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 open_tun
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 tap-windows6 device [LampaVPN] opened
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 TAP-Windows Driver Version 9.21 
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.8.0.137/255.255.255.0 on interface {D271F103-A665-4377-8538-256314761487} [DHCP-serv: 10.8.0.0, lease-time: 31536000]
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Successful ARP Flush on interface [17] {D271F103-A665-4377-8538-256314761487}
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 IPv4 MTU set to 1500 on interface 17 using SetIpInterfaceEntry()
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Block_DNS: WFP engine opened
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Block_DNS: Using existing sublayer
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Block_DNS: Added permit filters for exe_path
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Block_DNS: Added block filters for all interfaces
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Block_DNS: Added permit filters for TAP interface
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Data Channel: cipher 'AES-128-CBC', auth 'SHA256', peer-id: 135
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Timers: ping 10, ping-restart 120
+[2025-01-23 21:12:18] 2025-01-23 21:12:18 Protocol options: protocol-flags cc-exit tls-ekm dyn-tls-crypt
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 TEST ROUTES: 26/26 succeeded len=25 ret=1 a=0 u/d=up
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 127.0.0.1 MASK 255.255.255.255 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] failed because route exists
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] failed because route exists
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 104.19.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 104.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 52.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 40.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 20.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 13.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 2.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 172.217.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 216.0.0.0 MASK 255.0.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 142.250.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 162.159.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 216.58.206.91 MASK 255.255.255.255 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 34.0.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 172.217.18.3 MASK 255.255.255.255 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 142.250.185.0 MASK 255.255.255.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 66.22.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 34.126.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 142.250.186.0 MASK 255.255.255.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 0.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 64.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 128.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 192.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 151.101.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 104.199.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 C:\Windows\system32\route.exe ADD 35.186.224.0 MASK 255.255.255.0 10.8.0.1
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:12:23] 2025-01-23 21:12:23 Initialization Sequence Completed
+[2025-01-23 21:13:08] 4182[2025-01-23 21:17:15] 4184[2025-01-23 21:22:15] 4185[2025-01-23 21:27:15] 4190[2025-01-23 21:28:08] 4192[2025-01-23 21:32:15] 4193[2025-01-23 21:37:15] 4195[2025-01-23 21:42:15] 4197[2025-01-23 21:47:15] 4198[2025-01-23 21:52:15] 4203[2025-01-23 21:53:08] 4207[2025-01-23 21:54:24] 2025-01-23 21:54:24 Note: Treating option '--ncp-ciphers' as  '--data-ciphers' (renamed in OpenVPN 2.5).
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 Note: cipher 'AES-128-CBC' in --data-ciphers is not supported by ovpn-dco, disabling data channel offload.
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 OpenVPN 2.6.7 [git:v2.6.7/53c9033317b3b8fd] Windows [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] [DCO] built on Nov  8 2023
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 Windows version 10.0 (Windows 10 or greater), amd64 executable
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 library versions: OpenSSL 3.1.4 24 Oct 2023, LZO 2.10
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 DCO version: N/A
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 TCP/UDP: Preserving recently used remote address: [AF_INET]127.0.0.1:6143
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 Socket Buffers: R=[65536->65536] S=[65536->65536]
+[2025-01-23 21:54:24] 2025-01-23 21:54:24 Attempting to establish TCP connection with [AF_INET]127.0.0.1:6143
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 TCP connection established with [AF_INET]127.0.0.1:6143
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 TCPv4_CLIENT link local: (not bound)
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 TCPv4_CLIENT link remote: [AF_INET]127.0.0.1:6143
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 TLS: Initial packet from [AF_INET]127.0.0.1:6143, sid=7d33563d cc0b2bef
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 VERIFY OK: depth=1, CN=cn_t9VVmLFrN8sHJoBM
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 VERIFY X509NAME OK: CN=server_QMNifQCSKaW4buIw
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 VERIFY OK: depth=0, CN=server_QMNifQCSKaW4buIw
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 256 bits ECprime256v1, signature: ecdsa-with-SHA256, peer temporary key: 253 bits X25519
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 [server_QMNifQCSKaW4buIw] Peer Connection Initiated with [AF_INET]127.0.0.1:6143
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 TLS: move_session: dest=TM_ACTIVE src=TM_INITIAL reinit_src=1
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 TLS: tls_multi_process: initial untrusted session promoted to trusted
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 PUSH: Received control message: 'PUSH_REPLY,dhcp-option DNS 1.1.1.3,dhcp-option DNS 1.0.0.3,redirect-gateway def1 bypass-dhcp,route-gateway 10.8.0.1,ping 10,ping-restart 120,ifconfig 10.8.0.137 255.255.255.0,peer-id 135,cipher AES-128-CBC,protocol-flags cc-exit tls-ekm dyn-tls-crypt,tun-mtu 1500'
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 OPTIONS IMPORT: --ifconfig/up options modified
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 OPTIONS IMPORT: route options modified
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 OPTIONS IMPORT: route-related options modified
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 OPTIONS IMPORT: tun-mtu set to 1500
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 interactive service msg_channel=0
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 I=9 HWADDR=04:d9:f5:f2:ee:56
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 open_tun
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 tap-windows6 device [LampaVPN] opened
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 TAP-Windows Driver Version 9.21 
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.8.0.137/255.255.255.0 on interface {D271F103-A665-4377-8538-256314761487} [DHCP-serv: 10.8.0.0, lease-time: 31536000]
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Successful ARP Flush on interface [17] {D271F103-A665-4377-8538-256314761487}
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 IPv4 MTU set to 1500 on interface 17 using SetIpInterfaceEntry()
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Block_DNS: WFP engine opened
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Block_DNS: Using existing sublayer
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Block_DNS: Added permit filters for exe_path
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Block_DNS: Added block filters for all interfaces
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Block_DNS: Added permit filters for TAP interface
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Data Channel: cipher 'AES-128-CBC', auth 'SHA256', peer-id: 135
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Timers: ping 10, ping-restart 120
+[2025-01-23 21:54:25] 2025-01-23 21:54:25 Protocol options: protocol-flags cc-exit tls-ekm dyn-tls-crypt
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 TEST ROUTES: 42/42 succeeded len=41 ret=1 a=0 u/d=up
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 127.0.0.1 MASK 255.255.255.255 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] failed because route exists
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] failed because route exists
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 104.19.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 3.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 37.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 44.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 45.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 46.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 50.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 52.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 54.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 64.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 68.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 71.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 75.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 96.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 98.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 99.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 104.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 145.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 168.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 185.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 195.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 199.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 79.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 208.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 57.0.0.0 MASK 255.0.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 172.217.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 216.0.0.0 MASK 255.0.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 142.250.0.0 MASK 255.255.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 162.159.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 216.58.206.91 MASK 255.255.255.255 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 34.0.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 172.217.18.3 MASK 255.255.255.255 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 142.250.185.0 MASK 255.255.255.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 66.22.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 34.126.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 142.250.186.0 MASK 255.255.255.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 0.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 64.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 128.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 192.0.0.0 MASK 192.0.0.0 192.168.1.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 C:\Windows\system32\route.exe ADD 151.101.0.0 MASK 255.255.0.0 10.8.0.1
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=3 and dwForwardType=4
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Route addition via ipapi [adaptive] succeeded
+[2025-01-23 21:54:30] 2025-01-23 21:54:30 Initialization Sequence Completed
+[2025-01-23 21:57:15] 4210[2025-01-23 21:58:08] 4217[2025-01-23 21:59:22] 4221[2025-01-23 22:02:16] 4225
+Application exited.

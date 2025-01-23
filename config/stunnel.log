@@ -1,0 +1,325 @@
+2025.01.22 22:00:50 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 22:00:50 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 22:00:50 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 22:00:50 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 22:00:50 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 22:00:50 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 22:00:50 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 22:00:50 LOG5[main]: FIPS mode disabled
+2025.01.22 22:00:50 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 22:00:50 LOG5[main]: Configuration successful
+2025.01.22 22:00:51 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:62286
+2025.01.22 22:00:51 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.22 22:00:51 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:62288
+2025.01.22 22:37:42 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 22:37:42 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 22:37:42 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 22:37:42 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 22:37:42 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 22:37:42 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 22:37:42 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 22:37:42 LOG5[main]: FIPS mode disabled
+2025.01.22 22:37:42 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 22:37:42 LOG5[main]: Configuration successful
+2025.01.22 22:37:43 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:53254
+2025.01.22 22:37:43 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.22 22:37:43 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:53255
+2025.01.22 22:37:53 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.01.22 22:37:53 LOG5[0]: Connection reset: 41807 byte(s) sent to TLS, 558053 byte(s) sent to socket
+2025.01.22 22:38:04 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 22:38:04 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 22:38:04 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 22:38:04 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 22:38:04 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 22:38:04 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 22:38:04 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 22:38:04 LOG5[main]: FIPS mode disabled
+2025.01.22 22:38:04 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 22:38:04 LOG5[main]: Configuration successful
+2025.01.22 22:38:05 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:55216
+2025.01.22 22:38:05 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.22 22:38:05 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:55217
+2025.01.22 23:09:48 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 23:09:48 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 23:09:48 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 23:09:48 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 23:09:48 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 23:09:48 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 23:09:48 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 23:09:48 LOG5[main]: FIPS mode disabled
+2025.01.22 23:09:48 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 23:09:48 LOG5[main]: Configuration successful
+2025.01.22 23:13:43 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 23:13:43 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 23:13:43 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 23:13:43 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 23:13:43 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 23:13:43 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 23:13:43 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 23:13:43 LOG5[main]: FIPS mode disabled
+2025.01.22 23:13:43 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 23:13:43 LOG5[main]: Configuration successful
+2025.01.22 23:17:39 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 23:17:39 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 23:17:39 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 23:17:39 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 23:17:39 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 23:17:39 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 23:17:39 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 23:17:39 LOG5[main]: FIPS mode disabled
+2025.01.22 23:17:39 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 23:17:39 LOG5[main]: Configuration successful
+2025.01.22 23:17:59 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 23:17:59 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 23:17:59 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 23:17:59 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 23:17:59 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 23:17:59 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 23:17:59 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 23:17:59 LOG5[main]: FIPS mode disabled
+2025.01.22 23:17:59 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 23:17:59 LOG5[main]: Configuration successful
+2025.01.22 23:39:30 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 23:39:30 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 23:39:30 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 23:39:30 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 23:39:30 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 23:39:30 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 23:39:30 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 23:39:30 LOG5[main]: FIPS mode disabled
+2025.01.22 23:39:30 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 23:39:30 LOG5[main]: Configuration successful
+2025.01.22 23:39:30 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:58784
+2025.01.22 23:39:30 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.22 23:39:30 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:58787
+2025.01.22 23:57:06 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 23:57:06 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 23:57:06 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 23:57:06 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 23:57:06 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 23:57:06 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 23:57:06 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 23:57:06 LOG5[main]: FIPS mode disabled
+2025.01.22 23:57:06 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 23:57:06 LOG5[main]: Configuration successful
+2025.01.22 23:57:07 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:49620
+2025.01.22 23:57:07 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.22 23:57:07 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:49624
+2025.01.22 23:59:52 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.22 23:59:52 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.22 23:59:52 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.22 23:59:52 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.22 23:59:52 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.22 23:59:52 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.22 23:59:52 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.22 23:59:52 LOG5[main]: FIPS mode disabled
+2025.01.22 23:59:52 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.22 23:59:52 LOG5[main]: Configuration successful
+2025.01.22 23:59:53 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:64769
+2025.01.22 23:59:53 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.22 23:59:53 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:64773
+2025.01.22 23:59:56 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.01.22 23:59:56 LOG5[0]: Connection reset: 17795 byte(s) sent to TLS, 60098 byte(s) sent to socket
+2025.01.23 00:00:33 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 00:00:33 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 00:00:33 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 00:00:33 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 00:00:33 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 00:00:33 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 00:00:33 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 00:00:33 LOG5[main]: FIPS mode disabled
+2025.01.23 00:00:33 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 00:00:33 LOG5[main]: Configuration successful
+2025.01.23 00:00:33 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:56272
+2025.01.23 00:00:33 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 00:00:33 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:56273
+2025.01.23 00:14:18 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 00:14:18 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 00:14:18 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 00:14:18 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 00:14:18 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 00:14:18 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 00:14:18 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 00:14:18 LOG5[main]: FIPS mode disabled
+2025.01.23 00:14:18 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 00:14:18 LOG5[main]: Configuration successful
+2025.01.23 00:14:18 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:59030
+2025.01.23 00:14:18 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 00:14:18 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:59031
+2025.01.23 00:36:22 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 00:36:22 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 00:36:22 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 00:36:22 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 00:36:22 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 00:36:22 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 00:36:22 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 00:36:22 LOG5[main]: FIPS mode disabled
+2025.01.23 00:36:22 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 00:36:22 LOG5[main]: Configuration successful
+2025.01.23 00:36:22 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:55806
+2025.01.23 00:36:22 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 00:36:22 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:55807
+2025.01.23 00:42:34 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.01.23 00:42:34 LOG5[0]: Connection reset: 4488347 byte(s) sent to TLS, 9304503 byte(s) sent to socket
+2025.01.23 00:45:55 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 00:45:55 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 00:45:55 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 00:45:55 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 00:45:55 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 00:45:55 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 00:45:55 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 00:45:55 LOG5[main]: FIPS mode disabled
+2025.01.23 00:45:55 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 00:45:55 LOG5[main]: Configuration successful
+2025.01.23 00:45:55 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:58803
+2025.01.23 00:45:55 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 00:45:55 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:58805
+2025.01.23 00:52:33 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.01.23 00:52:33 LOG5[0]: Connection reset: 3480799 byte(s) sent to TLS, 25005920 byte(s) sent to socket
+2025.01.23 00:52:55 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 00:52:55 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 00:52:55 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 00:52:55 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 00:52:55 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 00:52:55 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 00:52:55 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 00:52:55 LOG5[main]: FIPS mode disabled
+2025.01.23 00:52:55 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 00:52:55 LOG5[main]: Configuration successful
+2025.01.23 00:52:56 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:60604
+2025.01.23 00:52:56 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 00:52:56 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:60605
+2025.01.23 00:53:57 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.01.23 00:53:57 LOG5[0]: Connection reset: 453167 byte(s) sent to TLS, 8930479 byte(s) sent to socket
+2025.01.23 02:10:35 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 02:10:35 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 02:10:35 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 02:10:35 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 02:10:35 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 02:10:35 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 02:10:35 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 02:10:35 LOG5[main]: FIPS mode disabled
+2025.01.23 02:10:35 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 02:10:35 LOG5[main]: Configuration successful
+2025.01.23 02:10:36 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:52803
+2025.01.23 02:10:36 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 02:10:36 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:52806
+2025.01.23 17:27:23 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 17:27:23 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 17:27:23 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 17:27:23 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 17:27:23 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 17:27:23 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 17:27:23 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 17:27:23 LOG5[main]: FIPS mode disabled
+2025.01.23 17:27:23 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 17:27:23 LOG5[main]: Configuration successful
+2025.01.23 17:27:24 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:53548
+2025.01.23 17:27:24 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 17:27:24 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:53550
+2025.01.23 17:39:54 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 17:39:54 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 17:39:54 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 17:39:54 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 17:39:54 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 17:39:54 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 17:39:54 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 17:39:54 LOG5[main]: FIPS mode disabled
+2025.01.23 17:39:54 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 17:39:54 LOG5[main]: Configuration successful
+2025.01.23 17:39:55 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:50124
+2025.01.23 17:39:55 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 17:39:55 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:50125
+2025.01.23 17:42:51 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 17:42:51 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 17:42:51 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 17:42:51 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 17:42:51 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 17:42:51 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 17:42:51 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 17:42:51 LOG5[main]: FIPS mode disabled
+2025.01.23 17:42:51 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 17:42:51 LOG5[main]: Configuration successful
+2025.01.23 17:42:51 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:50149
+2025.01.23 17:42:51 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 17:42:51 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:50152
+2025.01.23 18:10:42 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 18:10:42 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 18:10:42 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 18:10:42 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 18:10:42 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 18:10:42 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 18:10:42 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 18:10:42 LOG5[main]: FIPS mode disabled
+2025.01.23 18:10:42 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 18:10:42 LOG5[main]: Configuration successful
+2025.01.23 18:10:43 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:57033
+2025.01.23 18:10:43 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 18:10:43 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:57034
+2025.01.23 18:35:01 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 18:35:01 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 18:35:01 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 18:35:01 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 18:35:01 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 18:35:01 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 18:35:01 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 18:35:01 LOG5[main]: FIPS mode disabled
+2025.01.23 18:35:01 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 18:35:01 LOG5[main]: Configuration successful
+2025.01.23 18:35:01 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:49595
+2025.01.23 18:35:01 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 18:35:01 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:49597
+2025.01.23 20:24:34 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.01.23 20:24:34 LOG5[0]: Connection reset: 9631680 byte(s) sent to TLS, 47099950 byte(s) sent to socket
+2025.01.23 20:37:50 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 20:37:50 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 20:37:50 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 20:37:50 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 20:37:50 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 20:37:50 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 20:37:50 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 20:37:50 LOG5[main]: FIPS mode disabled
+2025.01.23 20:37:50 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 20:37:50 LOG5[main]: Configuration successful
+2025.01.23 20:37:51 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:64953
+2025.01.23 20:37:51 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 20:37:51 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:64955
+2025.01.23 20:58:11 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 20:58:11 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 20:58:11 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 20:58:11 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 20:58:11 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 20:58:11 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 20:58:11 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 20:58:11 LOG5[main]: FIPS mode disabled
+2025.01.23 20:58:11 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 20:58:11 LOG5[main]: Configuration successful
+2025.01.23 20:58:11 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:52127
+2025.01.23 20:58:11 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 20:58:11 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:52128
+2025.01.23 21:12:17 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 21:12:17 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 21:12:17 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 21:12:17 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 21:12:17 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 21:12:17 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 21:12:17 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 21:12:17 LOG5[main]: FIPS mode disabled
+2025.01.23 21:12:17 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 21:12:17 LOG5[main]: Configuration successful
+2025.01.23 21:12:18 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:53884
+2025.01.23 21:12:18 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 21:12:18 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:53885
+2025.01.23 21:54:24 LOG5[main]: stunnel 5.70 on x64-pc-mingw32-gnu platform
+2025.01.23 21:54:24 LOG5[main]: Compiled with OpenSSL 3.0.9 30 May 2023
+2025.01.23 21:54:24 LOG5[main]: Running  with OpenSSL 3.1.4 24 Oct 2023
+2025.01.23 21:54:24 LOG5[main]: Update OpenSSL shared libraries or rebuild stunnel
+2025.01.23 21:54:24 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2025.01.23 21:54:24 LOG5[main]: Reading configuration from file C:\Users\FetRush\source\repos\Roboping\Roboping\bin\Debug\config\stunnel.conf
+2025.01.23 21:54:24 LOG5[main]: UTF-8 byte order mark not detected
+2025.01.23 21:54:24 LOG5[main]: FIPS mode disabled
+2025.01.23 21:54:25 LOG4[main]: Service [forwarded-port] needs authentication to prevent MITM attacks
+2025.01.23 21:54:25 LOG5[main]: Configuration successful
+2025.01.23 21:54:25 LOG5[0]: Service [forwarded-port] accepted connection from 127.0.0.1:51084
+2025.01.23 21:54:25 LOG5[0]: s_connect: connected 93.127.181.130:9797
+2025.01.23 21:54:25 LOG5[0]: Service [forwarded-port] connected remote server from 192.168.1.14:51088
